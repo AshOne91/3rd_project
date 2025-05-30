@@ -1,3 +1,4 @@
+```
 llm_category_chatbot/
 │
 ├── app.py                        # Streamlit 앱 실행 진입점
@@ -30,3 +31,4 @@ llm_category_chatbot/
 │
 └── assets/
     └── logo.png                  # Streamlit UI에 표시할 로고 등 리소스
+```
