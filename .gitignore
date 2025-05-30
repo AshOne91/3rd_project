@@ -52,7 +52,7 @@ Thumbs.db
 
 # ✅ Exclude your local data and vector DB files
 data/
-# vector_db/
+vector_db/
 
 # Optional: model checkpoints, large outputs
 checkpoints/
