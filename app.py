@@ -1,12 +1,13 @@
 from chatbot.chatbot_core import run_chatbot_pipeline
 
 def main():
+    session_id = input("세션 아이디를 입력하세요: ") or "default"
     while True:
         user_input = input("질문을 입력하세요 (종료: exit): ")
         if user_input.lower() == "exit":
             break
-        answer = run_chatbot_pipeline(user_input)
-        print(f"\n[응답]\n{answer}\n")
+        answer = run_chatbot_pipeline(user_input, session_id=session_id)  # ← 세션 ID 전달
+        print(f"\n[{session_id} 응답]\n{answer}\n")
 
 if __name__ == "__main__":
     main()

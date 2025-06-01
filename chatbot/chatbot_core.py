@@ -18,7 +18,7 @@ import faiss
 index = faiss.IndexFlatL2(category_embeddings.shape[1])
 index.add(category_embeddings.numpy())
 
-def run_chatbot_pipeline(user_input: str) -> str:
+def run_chatbot_pipeline(user_input: str, session_id: str = "default") -> str:
     # 1. 분류용 벡터 검색
     input_emb = embedder.encode([user_input])
     D, I = index.search(np.array(input_emb).astype("float32"), k=3)
@@ -48,4 +48,4 @@ def run_chatbot_pipeline(user_input: str) -> str:
     rag_chain = build_rag_chain(category_llm)
     expert_response = rag_chain.invoke({"question": user_input, "context": context})
     # 5. 최종 챗봇 LLM
-    return chatbot_response(user_input, expert_response)
+    return chatbot_response(user_input, expert_response, session_id=session_id)
