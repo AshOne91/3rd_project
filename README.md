@@ -107,4 +107,13 @@ llm_category_chatbot/
 ---
 ## LLM 모델 테스트
 
+- GPT-3.5 Turbo
+- GPT-3.5 Turbo(FT)
+- GPT-4o-mini
+- KULLM(max 1024, sampling)
+- KULLM(max 256, no sampling)
+
+상위 5개 모델 테스트 결과 GPT-4o-mini 모델이 가장 우수함
+
+세부 내용은 다음 pdf 참조
 준배님 pdf 링크
