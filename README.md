@@ -21,9 +21,9 @@
 
 **머신러닝/딥러닝**<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white"/>
 
-**임베딩 및 벡터 검색** <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> `FAISS`
+**임베딩 및 벡터 검색** <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> <img src="https://img.shields.io/badge/FAISS-84BC34?style=for-the-badge&logo=faiss&logoColor=white"/>
 
-**LLM & API** <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> `Hugging Face Inference API`
+**LLM & API** <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging Face Inference API-FFD21E?style=for-the-badge&logo=hfa&logoColor=white"/>
 
 **앱 및 프론트엔드** <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 
