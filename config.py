@@ -30,33 +30,33 @@ DOC_EMBEDDINGS_FILE = os.path.join(VECTOR_DB_PATH, "doc_embeddings.pkl")
 
 # 4. 카테고리별 벡터DB 경로 (확장 및 병합 지원)
 VECTOR_DB_PATHS = {
-    # "medicine": (
-    #     os.path.join(VECTOR_DB_PATH, "medicine_index.faiss"),
-    #     os.path.join(VECTOR_DB_PATH, "medicine_chunks.txt")
-    # ),
-    # "treatment": (
-    #     os.path.join(VECTOR_DB_PATH, "treatment_index.faiss"),
-    #     os.path.join(VECTOR_DB_PATH, "treatment_chunks.txt")
-    # ),
-    # "assist_answer": (
-    #     os.path.join(VECTOR_DB_PATH, "assist_answer_index.faiss"),
-    #     os.path.join(VECTOR_DB_PATH, "assist_answer_chunks.txt")
-    # ),
-    # "assist_question": (
-    #     os.path.join(VECTOR_DB_PATH, "assist_question_index.faiss"),
-    #     os.path.join(VECTOR_DB_PATH, "assist_question_chunks.txt")
-    # ),
-    # "internal_answer": (
-    #     os.path.join(VECTOR_DB_PATH, "internal_answer_index.faiss"),
-    #     os.path.join(VECTOR_DB_PATH, "internal_answer_chunks.txt")
-    # ),
-    # "internal_question": (
-    #     os.path.join(VECTOR_DB_PATH, "internal_question_index.faiss"),
-    #     os.path.join(VECTOR_DB_PATH, "internal_question_chunks.txt")
-    # ),
-    # 추가 협업자 벡터 DB(예: 전용 assist)
-    "junbae_assist": (
-        os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_index1.index"),
-        os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_chunks1.txt")
-    )
+    "medicine": (
+         os.path.join(VECTOR_DB_PATH, "medicine/pilsu_pro_no_prepro_index1.faiss"),
+         os.path.join(VECTOR_DB_PATH, "medicine/pilsu_pro_no_prepro_chunks1.txt"),
+     ),
+     "treatment": (
+        # 보류
+         os.path.join(VECTOR_DB_PATH, "treatment/RAG_Output/faiss_medical/faiss_index"),
+         os.path.join(VECTOR_DB_PATH, "")
+     ),
+     "assist_answer": (
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_index1.index"),
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_chunks1.txt"),
+     ),
+     "assist_question": (
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_index1.index"),
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_chunks1.txt"),
+     ),
+     "internal_answer": (
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part1_index1.index"),
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part1_chunks1.txt"),
+    ),
+     "internal_question": (
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part1_index1.index"),
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part1_chunks1.txt"),
+     ),
+     "default": (
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_index1.index"),
+         os.path.join(VECTOR_DB_PATH, "QA_random_pair_part2_chunks1.txt"),
+     )
 }

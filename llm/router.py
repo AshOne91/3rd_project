@@ -20,7 +20,8 @@ target_llms = {
     "assist_answer": llm_assist,
     "assist_question": llm_assist,
     "internal_answer": llm_internal,
-    "internal_question": llm_internal
+    "internal_question": llm_internal,
+    "default":llm_default
 }
 
 # ✅ 카테고리 기반 LLM 선택 함수
