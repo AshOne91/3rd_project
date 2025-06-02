@@ -1,17 +1,18 @@
-# SKN12-3nd-5TEAM
+# SKN12-3rd-5TEAM
 ## 프로젝트 : LLM을 연동한 내 외부 데이터 학습 후 질의 응답
 
 ---
 ## 팀 소개
-### 팀 명 : a
+### 팀 명 : ????
 ## 팀 멤버
 
+이미지 들어가는 곳
 |:--:|:--:|:--:|:--:|
 | **권성호** | **남의헌** | **이준배** | **이준석** | **손현성** |
 
 
 ---
-## 프로젝트 목적 : 
+## 프로젝트 목적 : LLM을 활용한 의료 관련 QA 챗봇 구성
 
 ---
 ## 기술 스택
@@ -24,9 +25,10 @@
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/> 
+
 ---
 
-## 전체 구성도
+## 구성도
 
 <pre><code>
 llm_category_chatbot/
@@ -35,7 +37,7 @@ llm_category_chatbot/
 ├── main.py                       # 전처리/임베딩 등 백엔드 초기 작업 진입점
 ├── config.py                     # 공통 설정 (모델명, 경로 등)
 ├── requirements.txt              # 설치할 패키지 목록
-├── vector_db/                 # ✅ FAISS 인덱스 저장 폴더
+├── vector_db/                    # FAISS 인덱스 저장 폴더
 │   ├── faiss_index.faiss
 │   ├── doc_embeddings.pkl
 │   ├── doc_ids.json
@@ -92,4 +94,14 @@ llm_category_chatbot/
 
     유사도 기반 검색을 위한 벡터 데이터베이스 구축
 
+현성님 전처리 pdf 링크
+
 ---
+## 시스템 아키텍처
+
+![_](https://cdn.discordapp.com/attachments/1346621776909570109/1378963876887920761/1.png?ex=683e83b0&is=683d3230&hm=2e18d608a69697dbb5f690ae05a75da85ca6e756ec91f5d8afb4a2dd474a2aba&)
+
+---
+## LLM 모델 테스트
+
+준배님 pdf 링크
