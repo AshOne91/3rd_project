@@ -44,7 +44,15 @@ def run_chatbot_pipeline(user_input: str, session_id: str = "default") -> str:
         return chatbot_response(user_input, "", session_id=session_id)
     
     # 3. context 확보, 카테고리 분류 LLM
-    retrieved_examples = [(category_texts[i], category_categories[i], float(top_sims[j])) for j, i in enumerate(top_idx)]
+    retrieved_examples = [
+        (category_texts[i], category_categories[i], float(top_sims[j]))
+        for j, i in enumerate(top_idx)
+        if top_sims[j] >= 0.5
+    ]
+    # 만약 아무것도 없으면, context 없이 바로 응답
+    if not retrieved_examples:
+        return chatbot_response(user_input, "", session_id=session_id)
+
     predicted_category = classify_category_with_llm(user_input, retrieved_examples)
 
     # 4. 카테고리별 벡터 DB에서 문서 재검색 (context 추출)
