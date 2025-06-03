@@ -58,9 +58,15 @@ def run_chatbot_pipeline(user_input: str, session_id: str = "default") -> str:
         doc_emb_norm = doc_emb / (np.linalg.norm(doc_emb) + 1e-8)
         context_docs_norm = np.array([c / (np.linalg.norm(c) + 1e-8) for c in context_index.reconstruct_n(0, context_index.ntotal)])
         sims2 = np.dot(context_docs_norm, doc_emb_norm)
-        top_idx2 = np.argsort(sims2)[-3:][::-1]
-        top_docs = [context_docs[i] for i in top_idx2]
-        context = "\n".join(top_docs)
+
+        # 유사도 0.5 이상만 추출 (최대 3개)
+        selected_idx = [i for i in np.argsort(sims2)[::-1] if sims2[i] >= 0.5][:3]
+
+        if selected_idx:
+            top_docs = [context_docs[i] for i in selected_idx]
+            context = "\n".join(top_docs)
+        else:
+            context = ""   # 유사한 문장이 없으면 context 없이!
 
     # 5. 카테고리별 전문 LLM → 1차 답변
     category_llm = get_llm_by_category(predicted_category)
