@@ -25,7 +25,7 @@ def load_vector_db(load_path):
     """
     texts = pickle.load(open(os.path.join(load_path, "texts.pkl"), "rb"))
     categories = pickle.load(open(os.path.join(load_path, "categories.pkl"), "rb"))
-    embeddings = torch.load(os.path.join(load_path, "embeddings.pt"))
+    embeddings = torch.load(os.path.join(load_path, "embeddings.pt"), map_location=torch.device('cpu'))
     return texts, categories, embeddings
 
 

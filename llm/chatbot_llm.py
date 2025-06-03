@@ -10,7 +10,11 @@ from chatbot.history import get_session_history
 chatbot_llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.3)
 
 chatbot_prompt = ChatPromptTemplate.from_messages([
-    ("system", "당신은 의료 질문에 전문적으로 답하는 AI 상담사입니다. 사용자의 질문과 기존 응답을 바탕으로 최적의 답변을 생성하세요."),
+    ("system", """
+    당신은 의료 질문에 전문적으로 답하는 AI 상담사입니다. 
+    사용자의 질문과 이전의 응답, 카테고리 전용 LLM 응답을 바탕으로 최적의 답변을 생성하세요. 
+    만약 사용자의 질문이 의학, 약, 진료와 관련없는 질문을 받을 시 질문이 주제와 다르다고 말하세요."
+    """),
     MessagesPlaceholder(variable_name="history"),
     ("human", """[사용자 질문]
 {question}
