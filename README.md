@@ -18,7 +18,7 @@
 ---
 ## 기술 스택
 
-**언어 및 데이터 처리** <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> , <img src="https://img.shields.io/badge/Json-000000?style=for-the-badge&logo=json&logoColor=white"/>
+**언어 및 데이터 처리** <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Json-000000?style=for-the-badge&logo=json&logoColor=white"/>
 
 **머신러닝/딥러닝**<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white"/>
 
@@ -142,7 +142,7 @@ llm_category_chatbot/
 | 이름 | 소감 |
 |------|------|
 | **권성호** | 의료 데이터를 다루며 진짜 사람을 위한 AI를 만든다는 책임감을 느꼈습니다. |
-| **남의헌** | 처음엔 어렵게 느껴졌지만, 점점 흥미롭고 보람 있는 경험이 되었습니다. |
+| **남의헌** | ‘팀’ 프로젝트를 잘 마무리 할 수 있게 협력한 팀원들에게 감사한 마음을 전합니다. 다들 고생 많으셨습니다. |
 | **이준배** | 여러가지 데이터로 시작하여 모두 힘들 합쳐 하나의 프로그램을 만들었다는게 뿌듯합니다. 다들 고생 많으셨습니다. |
 | **이준석** | FAISS와 Streamlit의 연동이 재밌었고, 실전 프로젝트 감각을 키울 수 있었습니다. |
 | **손현성** | 전처리부터 모델 성능 비교까지, 전체 파이프라인을 경험한 게 큰 자산이 되었습니다. |
