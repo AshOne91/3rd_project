@@ -124,7 +124,7 @@ llm_category_chatbot/
 
 세부 내용은 다음 pdf 참조
 
-[LLM 테스트 계획 및 결과 보고서](https://github.com/AshOne91/3rd_project/blob/main/output/%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B3%84%ED%9A%8D%20%EB%B0%8F%20%EA%B2%B0%EA%B3%BC%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+[LLM 테스트 계획 및 결과 보고서](https://github.com/AshOne91/3rd_project/blob/main/output/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B83_LLM%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B3%84%ED%9A%8D%20%EB%B0%8F%20%EA%B2%B0%EA%B3%BC%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
 
 ---
 ## 사용방법
