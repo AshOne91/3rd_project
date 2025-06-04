@@ -2,7 +2,17 @@ import streamlit as st
 from chatbot.chatbot_core import run_chatbot_pipeline
 from llm.chatbot_llm import chatbot_llm  # gpt-4o-mini 모델 (시스템 프롬프트 활용)
 
-st.title("카테고리 기반 의료 챗봇 (세션/다운로드/요약 지원)")
+# 가운데 정렬된 제목 (큰 글씨)
+st.markdown(
+    """
+    <h1 style='text-align: center;'>
+        LangChain 및 RAG 활용<br>
+        의료 LLM 개발
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown("<h1 style='text-align: center;'>MediChain</h1>", unsafe_allow_html=True)
 
 # 1. 세션ID 관리
 if 'session_id' not in st.session_state:
