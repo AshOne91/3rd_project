@@ -1,15 +1,14 @@
 # SKN12-3rd-5TEAM
-## 프로젝트 : LLM을 연동한 내 외부 데이터 학습 후 질의 응답
+## 프로젝트 : LangChain 및 RAG 활용 의료 LLM 개발(MediChain)
 
 ---
 ## 팀 소개
-### 팀 명 : ????
+### 팀 명 : Windows
 ## 팀 멤버
 
-이미지 들어가는 곳
-|:--:|:--:|:--:|:--:|
+| <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379616067894247444/2Q.png?ex=6840e316&is=683f9196&hm=0ccf631b168d7c31e9399748acb80162066afa1122591c9e911c79e7497cef78&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379617409245118484/Tt_YNT1f0nSE679TGFnkLDzoMWcIIma4NnInqn-kyQm6iEHnqD8bnNAVHTIkZ6MyI_gjXhZrRXGFzMmoAyop6Q.png?ex=6840e456&is=683f92d6&hm=84d2e67d5a9a3de56809b65d53a89b6eb07257562f61b623dd79275e5ed8b9ba&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379615995517341776/Z.png?ex=6840e305&is=683f9185&hm=351753f3e14d112ee5f684976e1d86a137dfaa137112933d3fc57093b350bf28&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379617527549919232/Z.png?ex=6840e472&is=683f92f2&hm=3c304b9c2f15b99c904f0e892930512c4489f2bad96d3f02b8110d3ceafeca8e&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379615769746477226/2Q.png?ex=6840e2cf&is=683f914f&hm=9c803ea9148d194d927e33713d53a0e261825bf9d6c3e4d09372b797da9bf301&" width="700"/> |
+|:--:|:--:|:--:|:--:|:--:|
 | **권성호** | **남의헌** | **이준배** | **이준석** | **손현성** |
-
 
 ---
 ## 프로젝트 목적
