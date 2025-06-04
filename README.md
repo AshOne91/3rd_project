@@ -6,7 +6,7 @@
 ### 팀 명 : Windows
 ## 팀 멤버
 
-| <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379616067894247444/2Q.png?ex=6840e316&is=683f9196&hm=0ccf631b168d7c31e9399748acb80162066afa1122591c9e911c79e7497cef78&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1090653800563486763/1379631543454138400/ddef0542b3be7530.png?ex=6840f180&is=683fa000&hm=889489a13110879d1ac364f1fbfd25cb1730ea46fcca83009b63c2f1b742bef7&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379615769746477226/2Q.png?ex=6840e2cf&is=683f914f&hm=9c803ea9148d194d927e33713d53a0e261825bf9d6c3e4d09372b797da9bf301&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379617527549919232/Z.png?ex=6840e472&is=683f92f2&hm=3c304b9c2f15b99c904f0e892930512c4489f2bad96d3f02b8110d3ceafeca8e&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379615995517341776/Z.png?ex=6840e305&is=683f9185&hm=351753f3e14d112ee5f684976e1d86a137dfaa137112933d3fc57093b350bf28&" width="700"/> |
+| <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379616067894247444/2Q.png?ex=6840e316&is=683f9196&hm=0ccf631b168d7c31e9399748acb80162066afa1122591c9e911c79e7497cef78&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1090653800563486763/1379631543454138400/ddef0542b3be7530.png?ex=6840f180&is=683fa000&hm=889489a13110879d1ac364f1fbfd25cb1730ea46fcca83009b63c2f1b742bef7&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379615665199255622/49836_55372_349.png?ex=6840e2b6&is=683f9136&hm=84bb12bc687de639f4bb2924806127d216fa87231ce1481b53d4e0846531e5fc&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379617527549919232/Z.png?ex=6840e472&is=683f92f2&hm=3c304b9c2f15b99c904f0e892930512c4489f2bad96d3f02b8110d3ceafeca8e&" width="700"/> | <img src="https://cdn.discordapp.com/attachments/1377154931663962197/1379615995517341776/Z.png?ex=6840e305&is=683f9185&hm=351753f3e14d112ee5f684976e1d86a137dfaa137112933d3fc57093b350bf28&" width="700"/> |
 |:--:|:--:|:--:|:--:|:--:|
 | **권성호** | **남의헌** | **이준배** | **이준석** | **손현성** |
 
@@ -119,3 +119,12 @@ llm_category_chatbot/
 세부 내용은 다음 pdf 참조
 
 [LLM 테스트 계획 및 결과 보고서](https://github.com/AshOne91/3rd_project/blob/main/output/%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EA%B3%84%ED%9A%8D%20%EB%B0%8F%20%EA%B2%B0%EA%B3%BC%20%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+
+---
+## 사용방법
+
+![](https://cdn.discordapp.com/attachments/1377154931663962197/1379632675589062788/image.png?ex=6840f28e&is=683fa10e&hm=67f3bafce129d38ab4fa5149bc5b5ab3d47183499171bb37028e3271475eb713&)
+
+1. 사용자 구분을 위한 세션 아이디 작성
+
+2. 질문 작성 후 "질문하기" 버튼을 눌러 응답 확인
