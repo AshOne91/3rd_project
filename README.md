@@ -110,7 +110,8 @@ llm_category_chatbot/
 ## 시스템 아키텍처
 
 ![_](https://cdn.discordapp.com/attachments/1346621776909570109/1378963876887920761/1.png?ex=683e83b0&is=683d3230&hm=2e18d608a69697dbb5f690ae05a75da85ca6e756ec91f5d8afb4a2dd474a2aba&)
-[시스템 아키텍처 문서](https://cdn.discordapp.com/attachments/1346621776909570109/1378963876887920761/1.png?ex=683e83b0&is=683d3230&hm=2e18d608a69697dbb5f690ae05a75da85ca6e756ec91f5d8afb4a2dd474a2aba&)
+
+[시스템 아키텍처 문서](https://github.com/AshOne91/3rd_project/blob/main/output/5%EC%A1%B0%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.pdf)
 
 ---
 ## LLM 모델 테스트
