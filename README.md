@@ -29,6 +29,12 @@
 **앱 및 프론트엔드** <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
 
 **개발 환경** <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/VS Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/RunPod-4C4C4C?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMF8xNjc1XzI0MjgpIj48cGF0aCBkPSJNODkuNzU0NiA4Mi4wNDRMNTkuMjAwMyAxMDEuMzg4QzU3LjMwNTkgMTAyLjU1NSA1NC42OTQ0IDEwMi41NTUgNTIuNzk5OSAxMDEuMzg4TDIyLjI0NTUgODIuMDQ0QzIwLjM1MTEgODAuODc3IDIwLjM1MTEgNzguNDY3NSAyMi4yNDU1IDc3LjMgTDc2LjcwMjYgNDIuMDk1NUM3OC41OTcxIDQwLjkyODggODEuMjA4NiA0MC45Mjg4IDgzLjEwMzEgNDIuMDk1NUwxMTMuNjU3IDc3LjMwMUMxMTUuNTUyIDc4LjQ2NzYgMTE1LjU1MiA4MC44Nzc2IDExMy42NTcgODIuMDQ0WiIgZmlsbD0id2hpdGUiLz48L2c+PC9zdmc+&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white"/>
+<img src="https://img.shields.io/badge/Windows 11-0078D6?style=for-the-badge&logo=windows11&logoColor=white"/>
+
 
 ---
 
